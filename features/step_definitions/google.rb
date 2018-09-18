@@ -1,7 +1,7 @@
 require 'selenium-webdriver'
 
 Given("that I go to google website") do
-    $driver.get('www.google.com');
+    get('www.google.com');
   end
   
   Given("search for planets") do
