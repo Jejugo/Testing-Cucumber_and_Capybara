@@ -1,7 +1,6 @@
-require 'selenium-webdriver'
 
 Given("that I go to google website") do
-    get('www.google.com');
+    visit('www.google.com');
   end
   
   Given("search for planets") do
